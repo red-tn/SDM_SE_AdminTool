@@ -7,10 +7,17 @@ A comprehensive GUI application for managing StrongDM resources including SSH, R
 - **Authentication**: Secure API key authentication with StrongDM
 - **Single Resource Creation**: Interactive forms for creating SSH, RDP, and database resources
 - **Bulk CSV Import**: Import multiple resources from CSV files with validation
+- **Secrets Management**: Complete managed secrets operations
+  - List all managed secrets with metadata
+  - Validate secret credentials
+  - Rotate secrets on-demand
+  - **Retrieve actual secret values** with RSA encryption/decryption
+  - Copy secret values to clipboard
 - **Dynamic Configuration**: Automatically loads available tags, secret stores, and proxy clusters from your tenant
 - **Debug Tools**: Built-in testing and troubleshooting capabilities
 - **Modern UI**: Professional, responsive interface with clean styling
 - **Cross-Platform**: Works on Windows with plans for Mac support
+- **Auto-Updates**: Automatically upgrades StrongDM SDK to latest version on startup
 
 ## Supported Resource Types
 
@@ -51,6 +58,8 @@ A comprehensive GUI application for managing StrongDM resources including SSH, R
    ```bash
    python strongdm_manager.py
    ```
+
+   **Note:** The application automatically checks for and upgrades to the latest StrongDM SDK version on each startup to ensure compatibility with the latest features and secret store types.
 
 ## Usage
 

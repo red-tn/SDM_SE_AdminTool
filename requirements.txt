@@ -1,1 +1,7 @@
+# StrongDM Python SDK - Application auto-upgrades to latest version on each run
+# Minimum version required: 3.0.0
+# Current tested version: 15.5.0
 strongdm>=3.0.0
+
+# Cryptography for RSA encryption/decryption (secret retrieval)
+cryptography>=41.0.0
